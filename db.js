@@ -1,10 +1,10 @@
 const { Pool } = require('pg');
 
 const pool = new Pool({
-    user: 'first_postgresql_8j3d_user',
-    host: 'dpg-cohq9nn79t8c73868b4g-a.oregon-postgres.render.com',
-    database: 'first_postgresql_8j3d',
-    password: 'flC7rB767Vc4jUF72oJYJoBbBwOoj44z',
+    user: 'euroexplorer_db_user',
+    host: 'dpg-dpg-coprqg4f7o1s73e63230-a-a.oregon-postgres.render.com',
+    database: 'euroexplorer_db',
+    password: 'fJ8tN9zgWcFdoOnCaJTUgswAckGm9mvu',
     port: 5432,
     ssl: true
   });
